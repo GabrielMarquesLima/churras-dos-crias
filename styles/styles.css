@@ -1,0 +1,491 @@
+:root{
+    --titulo: 'Bungee', cursive;
+    --subtitulo: 'Bungee Inline', cursive;
+}
+
+body{
+background-color: #E5E4E3;
+}
+
+@media (min-width: 0px) and (max-width: 999px) {
+
+
+/* === INICIO DO HEADER === */
+header{
+    width: 100vw;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    background-color: #ffffff;
+}
+
+header .home{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+    transition: 0.2s;
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .home:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+
+header .whatsApp{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .whatsApp:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+
+header .location{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    transition: 0.2s;
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .location:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+/* === FIM DO HEADER === */
+
+    /* === INICIO DO MAIN === */
+/* === INICIO EVENTO === */
+main{
+    justify-content: center;
+}
+
+main .evento{
+    width: 314px;
+    height: 360px;
+    margin: 121px auto 6px auto;
+    text-align: center;
+ 
+    background-color: #31151F;
+    border-radius: 20px;
+}
+
+main .evento img{
+    margin-top: -66px;
+}
+
+main .evento .bg__h1{
+    width: 220px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px auto;
+
+    background-color: #3F222C;
+    border-radius: 10px;
+}
+
+main .evento .bg__h1 h1{
+    font-family: var(--titulo);
+    font-weight: 400;
+    font-size: 40px;
+    color: #CCCCCC;
+}
+
+main .evento .bg__logo{
+    width: 252px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #8C8C8B;
+    border-radius: 40px;
+}
+
+main .evento .bg__logo img{
+    width: 200px;
+    height: 66px;
+    margin: 0;
+}
+
+main .evento .bg__h1__data{
+    width: 145px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px auto;
+
+    background-color: #3F222C;
+    border-radius: 10px;
+}
+
+main .evento .bg__h1__data h1{
+    font-size: 40px;
+    font-family: var(--titulo);
+    color: #CCCCCC;
+    font-weight: 400;
+}
+
+/* === INICIO NFAZER */
+
+main .nfazer .bg__h1{
+    width: 322px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: #31151F;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    transition: 0.1s;
+}
+
+main .nfazer .bg__h1:hover{
+    transform: scale(1.05);
+}
+
+main .nfazer h1{
+    font-family: var(--titulo);
+
+    font-size: 30px;
+    color: #CCCCCC;
+}
+
+main .nfazer .bg__texto{
+    width: 285px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    background-color: #3F222C;
+}
+
+main .nfazer .bg__texto h2{
+    font-family: var(--subtitulo);
+    width: 261px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 19px;
+    margin: auto;
+    color: #ffffff;
+    transition: 0.1s;
+}
+
+main .nfazer .bg__texto h2:hover{
+    transform: scale(1.05);
+}
+
+main .nfazer .bg__texto p{
+    font-family: var(--subtitulo);
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+}
+    /* === FIM DO MAIN === */
+
+        /* === INICIO FOOTER === */
+footer .bg__footer{
+    width: 100vw;
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0 10px 0;
+
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+
+footer .bg__footer a{
+    display: block;
+}
+
+footer .bg__footer img{
+    width: 240px;
+}
+
+footer .bg__footer .icones img{
+    width: 45px;
+}
+        /* === FIM FOOTER === */
+}
+@media (min-width: 1000px) and (max-width: 2000px) { 
+/* === INICIO DO HEADER === */
+header{
+    width: 75px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 0 5px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+header .home{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    margin-bottom: 5px;
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .home:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+
+header .whatsApp{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    margin-bottom: 5px;
+
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .whatsApp:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+
+header .location{
+    width: 56px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    margin-bottom: 5px;
+
+
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+header .location:hover{
+    transform: scale(1.1);
+
+    background-color: #3F222C;
+}
+/* === FIM DO HEADER === */
+
+    /* === INICIO DO MAIN === */
+/* === INICIO EVENTO === */
+main{
+    justify-content: center;
+}
+
+main .evento{
+    width: 314px;
+    height: 360px;
+    margin: -80px auto 6px auto;
+    text-align: center;
+ 
+    background-color: #31151F;
+    border-radius: 20px;
+}
+
+main .evento img{
+    margin-top: -66px;
+}
+
+main .evento .bg__h1{
+    width: 220px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #3F222C;
+    border-radius: 10px;
+}
+
+main .evento .bg__h1 h1{
+    font-family: var(--titulo);
+    font-weight: 400;
+    font-size: 40px;
+    color: #CCCCCC;
+}
+
+main .evento .bg__logo{
+    width: 252px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #8C8C8B;
+    border-radius: 40px;
+}
+
+main .evento .bg__logo img{
+    width: 200px;
+    height: 66px;
+    margin: 0;
+}
+
+main .evento .bg__h1__data{
+    width: 145px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px auto;
+
+    background-color: #3F222C;
+    border-radius: 10px;
+}
+
+main .evento .bg__h1__data h1{
+    font-size: 40px;
+    font-family: var(--titulo);
+    color: #CCCCCC;
+    font-weight: 400;
+}
+
+main .evento p{
+    font-family: var(--subtitulo);
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -13px;
+}
+/* === INICIO NFAZER */
+
+main .nfazer .bg__h1{
+    width: 322px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: #31151F;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    transition: 0.1s;
+}
+
+main .nfazer .bg__h1:hover{
+    transform: scale(1.05);
+}
+
+main .nfazer h1{
+    font-family: var(--titulo);
+
+    font-size: 30px;
+    color: #CCCCCC;
+}
+
+main .nfazer .bg__texto{
+    width: 285px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    background-color: #3F222C;
+}
+
+main .nfazer .bg__texto h2{
+    font-family: var(--subtitulo);
+    width: 261px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 19px;
+    margin: auto;
+    color: #ffffff;
+    transition: 0.1s;
+}
+
+main .nfazer .bg__texto h2:hover{
+    transform: scale(1.05);
+}
+
+main .nfazer .bg__texto p{
+    font-family: var(--subtitulo);
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+}
+    /* === FIM DO MAIN === */
+        /* === INICIO FOOTER === */
+        footer .bg__footer{
+            width: 30vw;
+            height: 118px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px auto 10px auto;
+        
+            background-color: #D9D9D9;
+            border-radius: 50px;
+        }
+        
+        footer .bg__footer a{
+            display: block;
+        }
+        
+        footer .bg__footer img{
+            width: 240px;
+        }
+        
+        footer .bg__footer .icones img{
+            width: 45px;
+            transition: 0.2s;
+        }
+
+        footer .bg__footer .icones img:hover{
+            transform: scale(1.1);
+        }
+        /* === FIM FOOTER === */
+}
