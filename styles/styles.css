@@ -248,7 +248,7 @@ footer .bg__footer .icones img{
 }
         /* === FIM FOOTER === */
 }
-@media (min-width: 1000px) and (max-width: 2000px) { 
+@media (min-width: 1000px){ 
 /* === INICIO DO HEADER === */
 header{
     width: 75px;
